@@ -65,17 +65,14 @@ apper.in
   - 各月最終営業日までにPLが確認
 
 ## 開発環境
-- AWS
-  - ELB  ※SSL、ドメイン適用必要
-  - EIP
-  - RDS(MySQL)
-  - CloudWatch：サーバー監視
-
-- OS
-  - CentOS7
-
-- Webサーバー・APサーバー
-  - Nginx  + Puma
+名前 | 用途
+--- | ---
+AWS(ELB) | ロードバランサー ※SSL、ドメイン適用必要
+AWS(EIP） | 固定IP
+AWS(RDS） | DB(MySQL)
+AWS(EC2） | OS(CentOS7)
+AWS(CloudWathc) | サーバー監視
+Nginx  + Puma | Webサーバー・APサーバー
 
 - プログラミング言語、フレームワーク
   - Ruby 2.X.X

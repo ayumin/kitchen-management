@@ -73,39 +73,19 @@ AWS(RDS） | DB(MySQL)
 AWS(EC2） | OS(CentOS7)
 AWS(CloudWathc) | サーバー監視
 Nginx  + Puma | Webサーバー・APサーバー
-
-- プログラミング言語、フレームワーク
-  - Ruby 2.X.X
-  - Rails 5.X.X
-  - [Rubocop](https://github.com/froide-kk/rubocop-guide)
-
-- コーディング規約
-  - [ruby-style-guide](https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md)
-  - [rails-style-guide](https://github.com/satour/rails-style-guide/blob/master/README-jaJA.md)
-
-- テストコード
-  - RSpec / Capybara or Turnip
-
-- フロント
-  - bootstrap
-
-- CI
-  - CircleCI？  
-
-- デプロイツール
-  - Capistrano
-
-- プロジェクト管理ツール
-  - waffle.io？
-
-- 対象ブラウザ  
-  - Chrome最新版
-
-- その他
-  - バージョン管理  
-Github
-  - ドキュメント共有  
-  GoogleDrive？
+Ruby 2.X.X | プログラミング言語
+Rails 5.X.X | フレームワーク
+[Rubocop](https://github.com/froide-kk/rubocop-guide) | コード静的チェック
+[ruby-style-guide](https://github.com/fortissimo1997/ruby-style-guide/blob/japanese/README.ja.md) | Rubyコーディング規約
+[rails-style-guide](https://github.com/satour/rails-style-guide/blob/master/README-jaJA.md) | Railsコーディング規約
+RSpec / Capybara or Turnip | テストコード
+bootstap | フロント
+CircleCI？ | CIツール
+Capistrano | デプロイツール
+waffle.io？ | タスク管理ツール
+Github | バージョン管理
+GoogleDrive？ | ドキュメント共有
+Chrome最新版 | 対象ブラウザ  
 
 ## ステージング環境
 - http://XXX

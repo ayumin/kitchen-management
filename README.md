@@ -8,11 +8,11 @@
 給食工場の業務システム開発を行い、2017年10月の段階で初期導入を図る。
 
 ## 体制・役割
-#### フリーズ食品開発株式会社
+#### 株式会社パソナテックシステムズ
 - PO
 山本社長
 
-#### フロイデ株式会社
+#### 株式会社パソナテックシステムズ
 - PL
 高田
 
@@ -29,11 +29,11 @@
 ## 開発環境
 環境・ツール | 用途
 --- | ---
-AWS(ELB) | ロードバランサー ※SSL、ドメイン適用必要
-AWS(EIP） | 固定IP
-AWS(RDS） | DB(MySQL)
-AWS(EC2） | OS(CentOS7)
-AWS(CloudWathc) | サーバー監視
+Azure(ELB) | ロードバランサー ※SSL、ドメイン適用必要
+Azure(EIP） | 固定IP
+Azure(RDS） | DB(MySQL)
+Azure(EC2） | OS(CentOS7)
+Azure(CloudWathc) | サーバー監視
 Nginx  + Puma | Webサーバー・APサーバー
 Ruby 2.X.X | プログラミング言語
 Rails 5.X.X | フレームワーク
